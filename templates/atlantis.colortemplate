@@ -87,11 +87,11 @@ DiffAdd              none              darkgreen
 DiffChange           none              darkblue
 DiffDelete           none              darkred
 DiffText             none              darkorange
-Directory            green             none
+Directory            cyan              none
 EndOfBuffer          darkgrey          none
 ErrorMsg             red               none
 WarningMsg           yellow            none
-ModeMsg              green             none              bold
+ModeMsg              cyan              none              bold
 MoreMsg              blue              none
 FoldColumn           grey              darkgrey
 Folded               grey              darkgrey
@@ -100,13 +100,13 @@ IncSearch            none              darkblue          underline
 MatchParen           none              none              bold
 NonText              grey              none
 Pmenu                light             darkgrey
-PmenuSel             dark              green
+PmenuSel             dark              cyan
 PmenuSbar            none              darkgrey
 PmenuThumb           grey              grey
-Question             green             none
+Question             cyan              none
 SpellBad             blue              none              s=red
 SpellCap             yellow            none              s=yellow
-SpellLocal           green             none              s=green
+SpellLocal           cyan              none              s=cyan
 SpellRare            magenta           none              s=magenta
 VertSplit            grey              none
 Visual               none              darkblue
@@ -123,24 +123,24 @@ Label                magenta           none
 Conditional          magenta           none
 Todo                 magenta           none
 PreCondit            magenta           none
-PreProc              green             none
-Operator             green             none
-Delimiter            green             none
-Typedef              green             none
-Keyword              green             none
+PreProc              cyan              none
+Operator             cyan              none
+Typedef              cyan              none
+Keyword              cyan              none
+Delimiter            blue              none
 Type                 blue              none
 StorageClass         blue              none
 Function             blue              none
 Statement            blue              none
 Tag                  blue              none
-Identifier           cyan              none
-String               cyan              none
-Exception            cyan              none
-Constant             cyan              none
-Character            cyan              none
-Number               cyan              none
-Float                cyan              none
-Special              green             none
+Identifier           green             none
+String               green             none
+Exception            green             none
+Constant             green             none
+Character            green             none
+Number               green             none
+Float                green             none
+Special              cyan              none
 SpecialKey           magenta           none
 Error                red               none              bold
 Comment              grey              none              italic
@@ -156,6 +156,26 @@ ToolbarButton        dark              light             bold
 
 # Additional highlight groups {{{
 # Filetypes
+# css{{{
+cssClassName         magenta           none
+cssClassNameDot      magenta           none
+cssBraces            blue              none
+cssAtRule            green             none
+#}}}
+# sass{{{
+sassClass            magenta           none
+sassClassChar     -> sassClass
+#}}}
+# js{{{
+jsFunction           cyan              none
+jsGlobalNodeObjects  cyan              none
+jsParens          -> Delimiter
+jsBraces          -> Delimiter
+#}}}
+# ts{{{
+typescriptParens  -> Delimiter
+typescriptBraces  -> Delimiter
+#}}}
 # }}}
 
 # B/W variant {{{
