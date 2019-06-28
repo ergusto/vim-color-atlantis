@@ -43,8 +43,8 @@ Color: grey          #707f9c           ~                 Grey
 Color: light         #c5d4dd           ~                 White
 Color: green         #a3be8c           ~                 Green
 Color: cyan          #8dbf9d           ~                 Cyan
-Color: blue          #9bb6e3           ~                 Blue
-Color: magenta       #a9a7df           ~                Magenta
+Color: blue          #95b8f2           ~                 Blue
+Color: magenta       #a999f0           ~                Magenta
 Color: brown         #ab9e8c           ~                 Brown
 Color: yellow        #dfc185           ~                 Yellow
 Color: red           #e1647d           ~                 Red
@@ -133,7 +133,7 @@ Conditional          magenta           none
 PreCondit            magenta           none
 Operator             magenta           none
 Title                blue              none
-PreProc              magenta              none
+PreProc              cyan              none
 Exception            blue              none
 Error                blue              none              bold
 Typedef              blue              none
