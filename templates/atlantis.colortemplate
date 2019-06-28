@@ -48,6 +48,10 @@ Color: magenta       #a999f0           ~                Magenta
 Color: brown         #ab9e8c           ~                 Brown
 Color: yellow        #dfc185           ~                 Yellow
 Color: red           #e1647d           ~                 Red
+Color: darkred       #4b323b           ~                 DarkRed
+Color: darkgreen     #2d3a2c           ~                 DarkGreen
+Color: darkorange    #473628           ~                 DarkYellow
+Color: darkblue      #303e56           ~                 DarkBlue
 
 Color: kraft         #c2a273           180               LightGrey
 Color: kraftalt      #ae9168           179               LightGrey
@@ -64,9 +68,9 @@ Color: lightblue     #7f8ca3           39                LightBlue
 # }}}
 
 # Terminal colors {{{
-Term colors: cover red green orange blue magenta cyan lightbrown
-Term colors: cover red green orange
-Term colors: blue magenta cyan lightbrown
+Term colors: darkgrey red green yellow blue magenta cyan light
+Term colors: darkgrey red green yellow
+Term colors: blue magenta cyan light
 # }}}
 
 # Default highlight groups {{{
@@ -83,49 +87,48 @@ Variant: gui 256 8
 #endif
 
 # Group              Foreground        Background        Attributes
-ColorColumn          fg                kraft
+ColorColumn          fg                dark
 Conceal              grey              none
-Cursor               cover             kraft
-CursorColumn         none              kraftalt
-CursorLine           none              kraftalt
-CursorLineNr         cover             kraftalt
-DiffAdd              none              lightgreen
-DiffChange           none              lightblue
-DiffDelete           none              lightred
-DiffText             none              lightorange
-Directory            cover             none
-EndOfBuffer          kraft             none
-ErrorMsg             blue              kraft             bold
-FoldColumn           grey              kraftalt
-Folded               grey              kraftalt
-IncSearch            none              kraftalt          underline
-LineNr               grey              kraftalt
+Cursor               light             dark
+CursorColumn         none              darkgrey
+CursorLine           none              darkgrey
+CursorLineNr         light             darkgrey
+LineNr               grey              darkgrey
+SignColumn           none              darkgrey
+DiffAdd              none              darkgreen
+DiffChange           none              darkblue
+DiffDelete           none              darkred
+DiffText             none              darkorange
+Directory            green             none
+EndOfBuffer          darkgrey          none
+ErrorMsg             red               none
+WarningMsg           yellow            none
+ModeMsg              green             none              bold
+MoreMsg              blue              none
+FoldColumn           grey              darkgrey
+Folded               grey              darkgrey
+Search               none              darkred          underline
+IncSearch            none              darkblue          underline
 MatchParen           none              none              bold
-ModeMsg              darkcover         none
-MoreMsg              darkcover         none
 NonText              grey              none
-Pmenu                cover             kraftalt
-PmenuSbar            none              kraftalt
-PmenuSel             kraftalt          cover
-PmenuThumb           kraftalt          cover
+Pmenu                light             darkgrey
+PmenuSel             dark              green
+PmenuSbar            none              darkgrey
+PmenuThumb           grey              grey
 Question             green             none
-Search               none              kraftalt          underline
-SignColumn           none              kraftalt
-SpecialKey           darkbrown         none
 SpellBad             blue              none              s=red
-SpellCap             orange            none              s=orange
-SpellLocal           blue              none              s=blue
+SpellCap             yellow            none              s=yellow
+SpellLocal           green             none              s=green
 SpellRare            magenta           none              s=magenta
-StatusLine           kraft             cover
-StatusLineNC         cover             kraftalt
-TabLine              cover             kraftalt
-TabLineFill          cover             kraft
-TabLineSel           kraft             cover
-VertSplit            lightcover        kraft
-Visual               none              kraftalt
-VisualNOS            none              kraftalt          italic
-WarningMsg           orange            kraft             bold
-WildMenu             cover             kraftalt
+VertSplit            grey              none
+Visual               none              darkblue
+VisualNOS            none              darkblue          italic
+StatusLine           light             grey
+StatusLineNC         dark              grey
+TabLine              dark              grey
+TabLineFill          dark              grey
+TabLineSel           dark              light
+WildMenu             dark              light
 
 Todo                 magenta           none
 Label                magenta           none
@@ -151,6 +154,7 @@ Character            green             none
 Number               cyan              none
 Float                cyan              none
 Special              cyan              none
+SpecialKey           darkbrown         none
 Comment              grey              none              italic
 SpecialComment       darkbrown         none
 Ignore               grey              none
