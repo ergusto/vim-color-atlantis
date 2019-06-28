@@ -83,15 +83,15 @@ CursorLine           none              darkgrey
 CursorLineNr         light             darkgrey
 LineNr               grey              darkgrey
 SignColumn           none              darkgrey
-DiffAdd              none              darkgreen
+DiffAdd              none              darkgreen 
 DiffChange           none              darkblue
 DiffDelete           none              darkred
 DiffText             none              darkorange
-Directory            cyan              none
+Directory            green             none
 EndOfBuffer          darkgrey          none
 ErrorMsg             red               none
 WarningMsg           yellow            none
-ModeMsg              cyan              none              bold
+ModeMsg              green             none              bold
 MoreMsg              blue              none
 FoldColumn           grey              darkgrey
 Folded               grey              darkgrey
@@ -103,10 +103,10 @@ Pmenu                light             darkgrey
 PmenuSel             dark              green
 PmenuSbar            none              darkgrey
 PmenuThumb           grey              grey
-Question             cyan              none
+Question             green             none
 SpellBad             blue              none              s=red
 SpellCap             yellow            none              s=yellow
-SpellLocal           cyan              none              s=cyan
+SpellLocal           green             none              s=cyan
 SpellRare            magenta           none              s=magenta
 VertSplit            grey              none
 Visual               none              darkblue
@@ -123,24 +123,24 @@ Label                magenta           none
 Conditional          magenta           none
 Todo                 magenta           none
 PreCondit            magenta           none
-PreProc              cyan              none
-Operator             cyan              none
-Typedef              cyan              none
-Keyword              cyan              none
+PreProc              green             none
+Operator             green             none
+Typedef              green             none
+Keyword              green             none
 Delimiter            blue              none
 Type                 blue              none
 StorageClass         blue              none
 Function             blue              none
 Statement            blue              none
 Tag                  blue              none
-Identifier           green             none
-String               green             none
-Exception            green             none
-Constant             green             none
-Character            green             none
-Number               green             none
-Float                green             none
-Special              cyan              none
+Identifier           cyan              none
+String               cyan              none
+Exception            cyan              none
+Constant             cyan              none
+Character            cyan              none
+Number               cyan              none
+Float                cyan              none
+Special              green             none
 SpecialKey           magenta           none
 Error                red               none              bold
 Comment              grey              none              italic
@@ -160,15 +160,15 @@ ToolbarButton        dark              light             bold
 cssClassName         magenta           none
 cssClassNameDot      magenta           none
 cssBraces            blue              none
-cssAtRule            green             none
+cssAtRule            cyan              none
 #}}}
 # sass{{{
 sassClass            magenta           none
 sassClassChar     -> sassClass
 #}}}
 # js{{{
-jsFunction           cyan              none
-jsGlobalNodeObjects  cyan              none
+jsFunction           green             none
+jsGlobalNodeObjects  green             none
 jsParens          -> Delimiter
 jsBraces          -> Delimiter
 #}}}
@@ -177,7 +177,7 @@ typescriptParens  -> Delimiter
 typescriptBraces  -> Delimiter
 #}}}
 # py{{{
-pythonStatement      cyan              none
+pythonStatement      green             none
 #}}}
 # php{{{
 phpParent         -> Delimiter
@@ -192,7 +192,7 @@ jsonKeyword          blue              none
 yamlKey              blue              none
 #}}}
 # toml{{{
-tomlKey              cyan              none
+tomlKey              green             none
 #}}}
 
 # Plugins
@@ -230,7 +230,7 @@ MatchWord            none              none              underline
 MatchWordCur         none              none              underline
 #}}}
 # sneak{{{
-Sneak                none              darkgreen
+Sneak                none              darkgreen 
 #}}}
 # }}}
 

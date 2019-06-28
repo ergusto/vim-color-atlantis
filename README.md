@@ -2,7 +2,7 @@
 𝐀𝐭𝐥𝐚𝐧𝐭𝐢𝐬
 </h1>
 
-![](https://user-images.githubusercontent.com/37491630/60314289-a5870200-9951-11e9-8aee-af291d596c97.png)
+![](https://user-images.githubusercontent.com/37491630/60319548-41226d80-9966-11e9-9605-abb3f482f880.png)
 
 ## Installation
 
