@@ -39,12 +39,13 @@ Background: dark
 # Color name         GUI               Base256           Base16 (optional)
 Color: dark          #2e3440           ~                 Black
 Color: darkgrey      #434c5e           ~                 DarkGrey
-Color: grey          #707f9c           ~                 Grey
+Color: grey          #707f9c           ~                 LightGray
+Color: greyalt       #58647a           ~                 Gray
 Color: light         #c5d4dd           ~                 White
 Color: green         #a3be8c           ~                 Green
 Color: cyan          #8dbf9d           ~                 Cyan
 Color: blue          #95b8f2           ~                 Blue
-Color: magenta       #a999f0           ~                Magenta
+Color: magenta       #a999f0           ~                 Magenta
 Color: brown         #ab9e8c           ~                 Brown
 Color: yellow        #dfc185           ~                 Yellow
 Color: red           #e1647d           ~                 Red
@@ -110,10 +111,10 @@ SpellRare            magenta           none              s=magenta
 VertSplit            grey              none
 Visual               none              darkblue
 VisualNOS            none              darkblue          italic
-StatusLine           light             grey
-StatusLineNC         dark              grey
-TabLine              dark              grey
-TabLineFill          dark              grey
+StatusLine           light             greyalt
+StatusLineNC         dark              greyalt
+TabLine              dark              greyalt
+TabLineFill          dark              greyalt
 TabLineSel           dark              light
 WildMenu             dark              light
 
