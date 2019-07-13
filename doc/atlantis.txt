@@ -1,4 +1,4 @@
-*atlantis.txt*	For Vim version 8.0	Last change: 2019 Jun 28
+*atlantis.txt*	For Vim version 8.0	Last change: 2019 Jul 13
 
 
 		  Atlantis   by Sainnhepark
